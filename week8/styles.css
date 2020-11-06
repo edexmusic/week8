@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-Light.woff2') format('woff2'),
+        url('fonts/SpaceGrotesk-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
+        url('fonts/SpaceGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+        url('fonts/SpaceGrotesk-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-Bold.woff2') format('woff2'),
+        url('fonts/SpaceGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
+        url('fonts/SpaceGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+li {
+    list-style: none;
+    padding-right:50px;
+}
+.main a {
+    text-decoration: none;
+    color:#34547A;
+}
+.logo a {
+    text-decoration: none;
+    color: #34547A;
+    ;
+
+}
+.logo {
+    display: flex;
+    float: left;
+    padding: 11px 0 0 84px;
+    font-size: 24px;
+color: #34547A;
+;
+}
+.main {
+    display: flex;
+    float: right;
+    padding: 26px 43px 0 0;
+    font-size: 22px;
+}
+.main a:hover {
+    color: grey;
+}
+.header {
+    background: #EEEFF1;
+    ;
+    height: 700px;
+
+}
+.about {
+    height: 366px;
+    text-align: center;
+    padding: 0 300px;
+}
+.about h2 {
+    font-size: 34px;
+    padding-top: 20px;
+}
+.about p {
+    font-size: 18px;
+    color: darkgray;
+    padding-top: 10px;
+}
+.about cite {
+    font-size: 22px;
+}
+.info {
+    height: 250px;
+    background: #34547A;
+    border: lightseagreen;
+    border-style: solid;
+    border-width: 3px;
+}
+.info h3 {
+    color:white;
+    padding: 0;
+    padding-top: 20px;
+}
+.myinfo {
+    height: 653px;
+    color: black;
+    text-align: center  ;
+}
+.foot {
+        height: 151px;
+        background: #34547A;
+        border: lightseagreen;
+        border-style: solid;
+        border-width: 3px;
+}
+.foot h3 {
+    color: white;
+    float: left;
+}
+.foot p {
+    color: white;
+    float: left;
+
+}
+.soc li a {
+    display: flex;
+    float: right;
+    padding-right: 100px;
+    color: white;
+    padding: 60px 20px;
+}
+.foot p, h3 {
+padding-top: 60px;
+padding-left: 50px;
+
+}
+.proj li p {
+    color: white;
+    list-style: circle;
+    display: flex;
+    float: right;
+    padding-top: 50px;
+    padding-right: 90px;
+    font-size: 26px;
+}
+.proj li {
+    padding-right: 390px;
+}
+.info h3 {
+    font-size: 34px;
+    text-align: center;
+}
+.message {
+    text-align: center;
+padding-top: 250px;
+}
+.message a {
+    background-color: #34547A;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    line-height: 70px;
+    font-size: 24px;
+}
+.message h2 {
+    font-size: 46px;
+    color: black;
+    line-height: 70px;
+}
+.message span {
+    color: #34547A;
+}
+.message h5 {
+    font-size: 24px;
+    padding: 0 100px;
+    
+}
+
+.firstp {
+    width: 40%;
+}
+.secondp {
+    width: 40%;
+}
+.myinfo {
+    display: flex; 
+    padding-left: 220px;
+    padding-top: 40px;
+}
+
